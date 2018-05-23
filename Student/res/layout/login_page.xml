@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/zhanghao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:hint="@string/set_dengluxinxi"
+        android:textColor="@color/gray"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/mima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/set_zhucexinxi"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="10sp"
+        android:textColor="@color/gray"
+        android:textSize="20sp" 
+        android:inputType="textPassword"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12sp"
+        android:textColor="@color/write"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:textSize="25sp" 
+        android:background="@drawable/shape"
+        android:text="@string/login_denglu" />
+    <TextView
+	    android:id="@+id/result1"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24sp"
+        android:textColor="@color/red"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:textSize="25sp"
+        android:text="" >
+        </TextView>
+</LinearLayout>
